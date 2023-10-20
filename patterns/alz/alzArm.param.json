@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "internal-eq"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "non-prod-env"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "non-prod-env"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "non-prod-env"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "non-prod-env"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "non-prod-env"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -41,22 +41,22 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "rg-amba-ae-ts"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "amba-monitoring"
+            "Project": "amba-ts"
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "australiaeast"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "ramkamal.rao@equinox.co.nz"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
