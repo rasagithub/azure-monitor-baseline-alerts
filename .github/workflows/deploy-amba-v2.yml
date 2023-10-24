@@ -9,7 +9,7 @@ permissions:
 
 env:
   Location: "australiaeast"
-  ManagementGroupPrefix: "alz"
+  ManagementGroupPrefix: "internal-eq"
 
 jobs:
   deploy_job:
